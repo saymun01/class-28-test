@@ -1,0 +1,69 @@
+
+/* color edit */
+.text-primary {
+    color: #3f454d !important;
+}
+.bg-primary {
+    background-color: #3f454d !important;
+}
+
+.text-secondary {
+    color: #00afaa !important;
+}
+.bg-secondary {
+    background-color: #00afaa !important;
+}
+.bg-success {
+    background-color: #d4cdcd !important;
+}
+.text-success {
+    color: #706f6f !important;
+}
+
+.text-danger {
+    color: #d4cdcd !important;
+}
+
+.section.has-img-bg {
+  position: relative;
+  background: url("../image/main\ banner.jpg") center top / cover no-repeat fixed;
+  color: rgb(255, 255, 255);
+}
+
+.section.has-img-bg * {
+  position: relative;
+  z-index: 100;
+}
+
+.section.has-img-bg::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 1;
+}
+
+/* banner edit */
+.banner {
+    background-image: url(../image/ima.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 250px 0;
+}
+
+/* form edit */
+.contact {
+    background-color: #1B222C;
+}
+
+/* footer edit */
+.footer {
+    background-color: #3F454D;
+}
+.input-lb {
+    margin-left:300px;
+}
